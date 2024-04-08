@@ -15,6 +15,7 @@ h1, h2 {
   color: rgb(47, 47, 47);
   font-family: "Poiret One", sans-serif;
   font-size: 1.5em;
+  margin-top: 10;
 }
 
 a {
@@ -36,7 +37,11 @@ p {
 }
 
 #profile-pic {
-  border-radius: 12px;
+  border-radius: 50%;
+  height: 120px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  object-fit: cover;
   border: 1px solid black;
 }
 
