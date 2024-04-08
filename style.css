@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(142, 183, 230);
+  font-family: "Poiret One", sans-serif;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(142, 183, 230);
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: rgb(47, 47, 47);
+  font-family: "Poiret One", sans-serif;
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(142, 183, 230);
+  font-size: 30px;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: rgb(47, 47, 47);
+}
+
+p {
+  text-align: center;
+  width: 50%;
+  margin: 20px auto;
+
+}
+
+#profile-pic {
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+.card {
+  width: 800px;
+  margin: 40px auto;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  box-shadow: 0 0px 100px rgb(42, 225, 225, 0.9);
+}
+
+.social-media-list {
+  list-style: none;
+  padding: 0px;
+}
+
+.social-media-list li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.btn-blue {
+  width: 25%;
+  margin: 30px auto;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  color: rgb(142, 183, 230);
+  background-color: white;
+  padding: 10px 15px;
+  border: 1px solid rgb(47, 47, 47);
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+@media screen and (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .card {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .card {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .card {
+    width: 200px;
+  }
+}
